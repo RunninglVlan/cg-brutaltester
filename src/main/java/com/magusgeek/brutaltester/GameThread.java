@@ -131,7 +131,7 @@ public class GameThread extends Thread {
 
 						if (scores[i] < 0) {
 							error = true;
-							LOG.error("Negative score during game " + game + " p" + i + ":" + scores[i]);
+							LOG.error("Negative score during game " + game + " p" + (i + 1) + ":" + scores[i]);
 						}
 					}
 
